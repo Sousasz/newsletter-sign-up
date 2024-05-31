@@ -1,0 +1,147 @@
+@media screen and (max-width: 1040px) {
+  main .sign-up__card {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  main .sign-up__card .add-email {
+    padding: 85px 0 0 40px;
+  }
+
+  main .sign-up__card form.subscribe input {
+    width: 97%;
+  }
+
+  main .sign-up__card form.subscribe button {
+    width: 97%;
+  }
+}
+
+@media screen and (max-width: 915px) {
+  main .sign-up__card .add-email h1 {
+    font-size: 45px;
+  }
+
+  main .sign-up__card .add-email p#description {
+    max-width: 300px;
+    font-size: 15px;
+  }
+
+  main .sign-up__card .add-email ul li {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 842px) {
+  main .sign-up__card .add-email {
+    padding: 50px 0 0 40px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  main .sign-up__card .add-email {
+    padding: 28px 0 0 40px;
+  }
+
+  main .sign-up__card {
+    height: 505px;
+  }
+
+  main .sign-up__card .add-email h1 {
+    font-size: 40px;
+  }
+
+  main .sign-up__card .add-email p#description {
+    max-width: 300px;
+    font-size: 14px;
+  }
+
+  main .sign-up__card .add-email ul li {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 715px) {
+  main .sign-up__card {
+    height: 550px;
+  }
+}
+
+@media screen and (max-width: 690px) {
+  main .sign-up__card {
+    height: 700px;
+  }
+
+  main .sign-up__card .add-email h1 {
+    font-size: 33px;
+  }
+
+  main .sign-up__card .add-email p#description {
+    max-width: 300px;
+    font-size: 13px;
+    margin: 10px;
+  }
+
+  main .sign-up__card form.subscribe label {
+    font-size: 11px;
+  }
+
+  main .sign-up__card form.subscribe input {
+    height: 40px;
+    font-size: 12px;
+    padding: 0 0 0 15px ;
+  }
+
+  main .sign-up__card form.subscribe button {
+    height: 40px;
+    font-size: 12px;
+  }
+
+  main .sign-up__card .add-email ul li {
+    font-size: 13px;
+  }
+
+  main .sign-up__card img#image-card {
+    height: 95%;
+  }
+
+  main .sign-up__card {
+    align-items: center;
+    height: 530px;
+  }
+}
+
+@media screen and (max-width: 617px) {
+
+  main .sign-up__card {
+    height: 420px;
+  }
+
+  main .sign-up__card img#image-card {
+    height: 25rem;
+  }
+
+  main .sign-up__card .add-email {
+    padding: 10px 0 0 40px;
+  }
+
+  main .sign-up__card form.subscribe {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 10px 0 10px 0;
+  }
+
+  main .sign-up__card .add-email p#description {
+    font-size: 11px;
+  }
+
+  main .sign-up__card .add-email ul li {
+    font-size: 11px;
+  }
+}
+
+@media screen and (max-width: 545px) {
+  
+}

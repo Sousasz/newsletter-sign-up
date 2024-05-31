@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+body {
+  background-color: var(--color-charcoal-grey);
+  font-family: Roboto-Regular;
+  height: 100vh;
+  width: 100%;
+}
+
+main {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center
+}
+
+main .sucess__card {
+  background-color: white;
+  border-radius: 35px;
+  width: 27em;
+  height: 455px;
+  box-shadow: 0px 0px 10px 1px rgb(26, 26, 26);
+  display: none;
+}
+
+main .sucess__card img {
+  padding: 42px 0 0 65px;
+}
+
+main .sucess__card .thanks {
+  margin: 25px 0 0 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 68.5%;
+}
+
+main .sucess__card .thanks .center-btn button {
+  background-color: var(--color-darksslate);
+  color: whitesmoke;
+
+  font-family: Roboto-Bold;
+  font-size: 15px;
+  border-radius: 8px;
+  border: none;
+
+  width: 295px;
+  height: 55px;
+  margin: 14px 0 0px 0;
+  cursor: pointer;
+}
+main .sucess__card .thanks .center-btn button:hover {
+  background-image: linear-gradient(to right, #FF5379, #FF693C);
+  box-shadow: 0px 18px 25px 0px #FEBDB8;
+}
+
+main .sucess__card .thanks .thanks-content h1 {
+  max-width: 220px;
+  font-family: Roboto-Bold;
+  font-size: 42px;
+  color: var(--color-darksslate);
+}
+
+main .sucess__card .thanks .thanks-content p {
+  color: var(--color-darksslate);
+  padding: 15px 0px 20px 0;
+  max-width: 295px;
+  font-family: Roboto-Regular;
+  font-size: 13px;
+  line-height: 20px;
+}
