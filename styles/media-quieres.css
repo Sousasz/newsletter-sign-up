@@ -2,6 +2,8 @@
   main .sign-up__card {
     width: 90%;
   }
+
+
 }
 
 @media screen and (max-width: 1000px) {
@@ -80,7 +82,7 @@
   main .sign-up__card .add-email p#description {
     max-width: 300px;
     font-size: 13px;
-    margin: 10px;
+    margin: 10px 10px 10px 0;
   }
 
   main .sign-up__card form.subscribe label {
@@ -102,7 +104,7 @@
     font-size: 13px;
   }
 
-  main .sign-up__card img#image-card {
+  main .sign-up__card img#image-card-desktop {
     height: 95%;
   }
 
@@ -118,7 +120,7 @@
     height: 420px;
   }
 
-  main .sign-up__card img#image-card {
+  main .sign-up__card img#image-card-desktop {
     height: 25rem;
   }
 
@@ -129,19 +131,114 @@
   main .sign-up__card form.subscribe {
     display: flex;
     flex-direction: column;
-    gap: 10px;
     margin: 10px 0 10px 0;
   }
 
   main .sign-up__card .add-email p#description {
-    font-size: 11px;
+    font-size: 10.5px;
   }
 
   main .sign-up__card .add-email ul li {
-    font-size: 11px;
+    gap: 8px;
+    font-size: 10.5px;
+  }
+
+  main .sign-up__card .add-email ul li img {
+    height: 18px;
+  }
+  
+  main .sign-up__card form.subscribe label {
+    margin: 8px 0 0 0px ;
   }
 }
 
 @media screen and (max-width: 545px) {
-  
+
+  main .sign-up__card .add-email {
+    padding: 28px 0 0 25px;
+  }
+
+  main .sign-up__card .add-email h1 {
+    font-size: 28px;
+  }
+
+  main .sign-up__card .add-email p#description {
+    font-size: 10px;
+  }
+
+  main .sign-up__card .add-email ul li {
+    font-size: 10px;
+  }
+
+  main .sign-up__card form.subscribe input {
+    font-size: 10px; 
+  }
+
+  main .sign-up__card form.subscribe button {
+    font-size: 10px;
+    margin: 5px 0 0 0;
+  }
 }
+
+@media screen and (max-width: 480px) {
+  main .sign-up__card {
+    border-radius: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column-reverse;
+  }
+
+  main .sign-up__card .add-email {
+    margin: 0 0 40px 0;
+    height: 500px;
+  }
+
+  main .sign-up__card img#image-card-desktop {
+    display: none;
+  }
+
+  main .sign-up__card img#image-card-mobile {
+    display: block;
+    width: 100%;
+    margin: 0 0 auto 0;
+  }
+
+  main .sign-up__card .add-email h1 {
+    font-size: 35px;
+    margin: 0 20px 0 0;
+  }
+
+  main .sign-up__card .add-email p#description {
+    font-size: 13px;
+  }
+
+  main .sign-up__card .add-email ul {
+    margin: 0 20px 0 0;
+  }
+
+  main .sign-up__card .add-email ul li {
+    font-size: 13px;
+  }
+
+  main .sign-up__card form.subscribe {
+    gap: 15px;
+  }
+
+  main .sign-up__card form.subscribe label {
+    margin: 30px 0 0 0;
+  }
+
+  main .sign-up__card form.subscribe input {
+    height: 55px;
+    font-size: 14px; 
+  }
+
+  main .sign-up__card form.subscribe button {
+    height: 55px;
+    font-size: 14px;
+    margin: 5px 0 0 0;
+  }
+  
+} 
