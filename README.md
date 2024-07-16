@@ -13,9 +13,9 @@
 
 # Funcionalidades ✨
 
-1.  Validação: O usuário poderá visualizar uma mensagem de validação se o campo estiver vazio ou não for preenchido de maneira correta
+1. Validação: O usuário poderá visualizar uma mensagem de validação se o campo estiver vazio ou não for preenchido de maneira correta
    
-2.  Alteração de estado: Caso o endereço de e-mail for preenchido adequadamente, o formulário é oculto e a mensagem de sucesso será exibida
+2. Alteração de estado: Caso o endereço de e-mail for preenchido adequadamente, o formulário é oculto e a mensagem de sucesso será exibida
 <br />
 <br />
 
