@@ -18,7 +18,7 @@
 2. Alteração de estado: Caso o endereço de e-mail for preenchido adequadamente, o formulário é oculto e a mensagem de sucesso será exibida
 <br />
 
-# Ferramentas 🔧
+# Ferramentas/Tecnologias 🔧
 
  - HTML
  - CSS
