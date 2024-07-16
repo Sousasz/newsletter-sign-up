@@ -37,11 +37,18 @@
         </ul>
 
         <form class="subscribe">
-          <label for="email-input">Email adress</label>
-          <input type="email" id="email-input" placeholder="email@company.com" />
-          <button type="submit" onclick="subscribe()">Subscribe to monthly newsletter</button>
+          <div class="labels">
+            <label for="email-input">Email adress</label>
+            <label class="error-email-input" style="color: #CF7A6E;">Valid email required</label>
+          </div>
+          <input type="email"
+            id="email-input" 
+            placeholder="email@company.com" 
+            oninput="changeState()"
+          />
+          <button type="submit" id="submit-button">Subscribe to monthly newsletter</button>
         </form> 
-      </section>
+      </section>  
 
       <img 
         src="./assets/images/illustration-sign-up-desktop.svg" 
@@ -57,25 +64,27 @@
     </div>
 
     <div class="sucess__card">
-      <img src="./assets/images/icon-success.svg" alt="Ícone de sucesso" width="115"/> <!--119 x 106-->
       <section class="thanks">
         <div class="thanks-content">
+          <img src="./assets/images/icon-success.svg" alt="Ícone de sucesso" width="55"/> 
           <h1>Thanks for subscribing!</h1>
 
           <p>
             A confirmation email has been sent to
-            <strong>ash@loremcompany.com.</strong> Please open it
+            <span id="registered-email"></span> Please open it
             and click the button inside to confirm
             your subscription
           </p>
-
         </div>
 
         <div class="center-btn">
-          <button type="button">Dismiss message</button>
+          <button type="button" id="dismiss">Dismiss message</button>
         </div>
       </section>
     </div>
   </main>
+
+  <script src="./script.js"></script>
+  <script src="https://unpkg.com/validator@latest/validator.min.js"></script>
 </body>
 </html>
