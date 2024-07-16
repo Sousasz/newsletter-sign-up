@@ -3,7 +3,7 @@
 ![Preview do projeto](./design/desktop-preview.jpg)
 <br />
 
-##### Este é um projeto proposto como um desafio na plataforma "Frontend Mentor"
+Este é um projeto proposto como um desafio na plataforma "Frontend Mentor"
 
 # Sobre 
 
